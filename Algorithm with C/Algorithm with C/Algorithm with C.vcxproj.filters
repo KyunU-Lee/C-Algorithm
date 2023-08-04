@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\stack">
       <UniqueIdentifier>{f57d65a3-a70b-40ce-9aa5-1c4ed31a61f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\queue">
+      <UniqueIdentifier>{fd839972-25f2-4c0f-9769-58f985e51f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\set">
+      <UniqueIdentifier>{13fe2b02-aa6e-4cf5-9851-abfa408b2d90}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -42,6 +48,12 @@
     <ClCompile Include="page.cpp">
       <Filter>소스 파일\list</Filter>
     </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>소스 파일\queue</Filter>
+    </ClCompile>
+    <ClCompile Include="set.cpp">
+      <Filter>소스 파일\set</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
@@ -64,6 +76,12 @@
     </ClInclude>
     <ClInclude Include="stack.h">
       <Filter>소스 파일\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>소스 파일\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="set.h">
+      <Filter>소스 파일\set</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
