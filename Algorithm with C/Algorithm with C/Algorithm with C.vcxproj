@@ -127,12 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="clist.cpp" />
+    <ClCompile Include="dlist.cpp" />
+    <ClCompile Include="frame.cpp" />
     <ClCompile Include="list.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="page.cpp" />
+    <ClCompile Include="stack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="clist.h" />
+    <ClInclude Include="frame.h" />
     <ClInclude Include="func.h" />
     <ClInclude Include="list.h" />
+    <ClInclude Include="dlist.h" />
+    <ClInclude Include="page.h" />
+    <ClInclude Include="stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

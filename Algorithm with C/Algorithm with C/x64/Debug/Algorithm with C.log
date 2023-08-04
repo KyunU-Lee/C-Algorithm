@@ -1,4 +1,6 @@
-﻿  list.cpp
-  main.cpp
+﻿  clist.cpp
+  dlist.cpp
+  page.cpp
+  stack.cpp
   코드를 생성하고 있습니다...
-  Algorithm with C.vcxproj -> E:\잡다\CPP_Prectice\Algorithms with C\Algorithm with C\x64\Debug\Algorithm with C.exe
+  Algorithm with C.vcxproj -> E:\잡다\CPP_Prectice\C-Algorithm\Algorithm with C\x64\Debug\Algorithm with C.exe
