@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\set">
       <UniqueIdentifier>{13fe2b02-aa6e-4cf5-9851-abfa408b2d90}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\hash">
+      <UniqueIdentifier>{20cec28f-c970-4de3-828b-8b22e342ad7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\tree">
+      <UniqueIdentifier>{5f66c67e-cf34-4b11-8340-dcc3be5f2b73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -54,6 +60,15 @@
     <ClCompile Include="set.cpp">
       <Filter>소스 파일\set</Filter>
     </ClCompile>
+    <ClCompile Include="cover.cpp">
+      <Filter>소스 파일\set</Filter>
+    </ClCompile>
+    <ClCompile Include="chtbl.cpp">
+      <Filter>소스 파일\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="bitree.cpp">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
@@ -82,6 +97,15 @@
     </ClInclude>
     <ClInclude Include="set.h">
       <Filter>소스 파일\set</Filter>
+    </ClInclude>
+    <ClInclude Include="cover.h">
+      <Filter>소스 파일\set</Filter>
+    </ClInclude>
+    <ClInclude Include="chtbl.h">
+      <Filter>소스 파일\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="bitree.h">
+      <Filter>소스 파일\tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

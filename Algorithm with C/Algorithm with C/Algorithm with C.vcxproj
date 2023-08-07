@@ -101,7 +101,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bitree.cpp" />
+    <ClCompile Include="chtbl.cpp" />
     <ClCompile Include="clist.cpp" />
+    <ClCompile Include="cover.cpp" />
     <ClCompile Include="dlist.cpp" />
     <ClCompile Include="frame.cpp" />
     <ClCompile Include="list.cpp" />
@@ -138,7 +141,10 @@
     <ClCompile Include="stack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bitree.h" />
+    <ClInclude Include="chtbl.h" />
     <ClInclude Include="clist.h" />
+    <ClInclude Include="cover.h" />
     <ClInclude Include="frame.h" />
     <ClInclude Include="func.h" />
     <ClInclude Include="list.h" />
